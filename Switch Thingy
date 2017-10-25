@@ -1,0 +1,39 @@
+   /*Simple_PB_LED_V1 - Modified - */
+
+const byte LEDpin = 3;
+const byte SWITCHpin = 2;
+int counter = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(LEDpin, OUTPUT);
+pinMode(SWITCHpin, INPUT);
+digitalWrite(SWITCHpin, HIGH);
+
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int LEDstate = digitalRead(SWITCHpin);
+
+  if (LEDstate == 0){  
+    if (counter == 0){
+       counter = 1;
+       
+    }
+    else if (counter == 1){
+      counter = 0;
+    }
+    else{
+      counter = 0;
+    }
+  }
+
+  if (counter == 1){
+    digitalWrite(LEDpin, HIGH);
+  }
+  else{
+    digitalWrite(LEDpin, LOW);
+  }
+}
