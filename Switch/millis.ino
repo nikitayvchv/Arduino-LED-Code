@@ -17,7 +17,7 @@ digitalWrite(SWITCHpin, HIGH);
 }
 
 unsigned long lastTime = millis();
-const long interval = 200;
+const long interval = 100;
 
 void loop() {
   // put your main code here, to run repeatedly:
