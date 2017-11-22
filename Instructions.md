@@ -1,5 +1,6 @@
 *Greg Reynolds Jan. 2017*
 
+**[More Info Here](https://sites.google.com/a/ocdsb.ca/a-y-jackson-ics4u/unit-2-micro-controlers/1-introduction-to-microcontrolers)**
 
 It is the rare electrical item that is any more complex than a hair dryer that doesn’t have a small microcontroller in it. Even an electric toothbrush, with its timer, has a micro in it. So do stoves and refrigerators. Automobiles have probably over 20 micros embedded in components like the fuel injector, speed controller, entertainment centre, tire pressure monitor, and so on. None of these items appear to be a computer since there is no mouse, screen, or keyboard. The computer is embedded in the item.
 
